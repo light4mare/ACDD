@@ -115,12 +115,13 @@ install {
         // This generates POM.xml with proper parameters
         pom {
             project {
+                name 'framework'
                 packaging 'aar'
                 groupId publishedGroupId
                 artifactId artifact
 
                 // Add your description here
-                name libraryName
+               // name libraryName
                 description libraryDescription
                 url siteUrl
 
